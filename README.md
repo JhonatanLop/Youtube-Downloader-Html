@@ -6,7 +6,7 @@ Construção de um site que vise facilitar o download de vídeos do youtube de f
 Já fiz um script em python que faz download de vídeo e audio<br> 
 Como aprendizado, gostaria que essa idéia saísse do terminal e se transformasse numa página web.<br>
 > Caso tenha interesse e deseje ver o projeto rodando em um ternimal python:<br>
-> <a href = "https://github.com/JhonatanLop/Youtube-Download" target="_blank" title="Youtube Downloader Python Terminal"> Youtube Downloader GitHub</a>
+> <a href = "https://github.com/JhonatanLop/Youtube-Download" title="Youtube Downloader Python Terminal"> Youtube Downloader GitHub</a>
 
 Para isso, prentendo usar as seguintes tecnologias:<br>
 > <img align="center" alt="API-Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
