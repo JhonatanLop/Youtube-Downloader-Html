@@ -16,8 +16,8 @@ Para o desenho do site:<br>
 > <img alt="API-Csharp" height="40" width="50" src="https://api.iconify.design/ph/figma-logo-light.svg?color=%23ff4000&width=40&height=50"/>
 
 
-## Link para o site em desenvolvimento:
+## Link para o site:
 
-<a href = "http://127.0.0.1:5500/index.html" target="_blank" title="Youtube Downloader"> Youtube Downloader </a> <br>
-Caso não esteja funcionando, contate o suporte.<br>
-contato suporte: jhooliveiral.lopes@gmail.com
+### <a href = "http://127.0.0.1:5500/index.html" title="Youtube Downloader"> ***Youtube Downloader*** </a><br>
+Caso o link não esteja funcionando, entre em contato.<br>
+<a href="mailto:jhooliveira.lopes@gmail.com?subject=Site apresenta mau funcionamento" title="Você será redirecionado para uma página para contatar o suporte">Envie um e-mail para o suporte</a><br>
