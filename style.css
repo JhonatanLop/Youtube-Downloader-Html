@@ -8,7 +8,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 #Frame-1{
@@ -32,4 +31,14 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+
+#Logo{
+    position: relative;
+    align-items: top;
+    padding: 12px;
+}
+
+#Title{
+
 }
