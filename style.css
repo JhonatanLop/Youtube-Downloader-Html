@@ -19,29 +19,32 @@
     border-radius: 4px;
     border: solid 2px #ff1212;
     padding-top: 30px;
-    padding-left: 42px;
-    padding-right: 42px;
     margin-left: auto;
     margin-right: auto;
 
 }
 
-#Header{
+/* #Header{
     position: relative;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
+    height: 200px;
+    width: 100%;
+} */
 
 #Logo{
-    position: relative;
-    align-items: top;
-    padding: 12px;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    width: auto;
+    height: 100px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 #Title{
+    position: relative;
     font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
     color: #E1E1E6;
+    width: 420px;
+    height: 60px;
+    top: 80px;
+    text-align: center;
 }
