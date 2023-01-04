@@ -37,8 +37,11 @@
     position: relative;
     align-items: top;
     padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #Title{
-
+    font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E1E1E6;
 }
