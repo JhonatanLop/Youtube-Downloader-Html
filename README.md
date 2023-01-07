@@ -27,8 +27,8 @@ Caso o link não esteja funcionando, entre em contato.<br>
 <a href="mailto:jhooliveira.lopes@gmail.com?subject=Site apresenta mau funcionamento" title="Você será redirecionado para uma página para contatar o suporte">Envie um e-mail para o suporte</a> -->
 
 ## Design no Figma:
-<img align="center" alt="Projeto no Figma" height="800px" width="auto" src="https://imgcloud.s3.us-east-1.wasabisys.com/6jq4iiWgdw.png">
+<img align="center" alt="Projeto no Figma" height="auto" width="auto" src="https://imgcloud.s3.us-east-1.wasabisys.com/6jq4iiWgdw.png">
 
 
 ## Estado atual do projeto (06/01/2023):
-<img align="center" alt="Youtube Downloader" height="800px" width="auto" src="https://imgcloud.s3.us-east-1.wasabisys.com/nAayFnsBYO.png">
+<img align="center" alt="Youtube Downloader" height="auto" width="auto" src="https://imgcloud.s3.us-east-1.wasabisys.com/nAayFnsBYO.png">
