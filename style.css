@@ -66,7 +66,7 @@
     height: auto;
 }
 
-#Input{
+.Input{
     top: 28px;
     display: flex;
     position: absolute;
@@ -81,10 +81,10 @@
 
 }
 
-#Input_clean{
+.Input_clean{
     background-color: #202024;
     border-style: hidden;
-    color: #E1E1E6;
+    color: #7c7c8a;
 
     width: 336px;
     /* height: 42px; */
@@ -93,3 +93,38 @@
     padding-left: 16px;
 }
 
+.Button{
+    position: absolute;
+    display: flex;
+    top: 98px;
+
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.btn{
+    width: 280px;
+    height: 48px;
+
+    border-radius: 4px;
+    background-color: #ff1212;
+    border: none;
+
+    font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #121214;
+}
+
+.Output{
+    top: 170px;
+    display: flex;
+    position: absolute;
+    /* color: #E1E1E6;
+    background-color: #202024; */
+    /* border-radius: 4px; */
+    width: 336px;
+    height: 42px;
+    border-color: #ff1212;
+    border: solid 2px #ff1212;
+    border-radius: 4px;
+}
