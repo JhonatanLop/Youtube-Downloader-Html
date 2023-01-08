@@ -57,7 +57,7 @@
     height: 460px;
 }
 
-#Label{
+.Label{
     position: relative;
     font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
@@ -116,7 +116,7 @@
 }
 
 .Output{
-    top: 170px;
+    top: 200px;
     display: flex;
     position: absolute;
     /* color: #E1E1E6;
@@ -124,7 +124,16 @@
     /* border-radius: 4px; */
     width: 336px;
     height: 42px;
-    border-color: #ff1212;
     border: solid 2px #ff1212;
     border-radius: 4px;
+}
+
+.Title_video{
+    display: flex;
+    position: absolute;
+    top: 170px;
+    
+    font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E1E1E6;
+    font-size: 14px;
 }
