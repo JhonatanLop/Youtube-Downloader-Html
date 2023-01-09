@@ -138,6 +138,7 @@
 }
 
 .radio-group{
+    margin-top: 12px;
     position: absolute;
     top: 260px;
     width: 160px;
