@@ -13,9 +13,11 @@ Como aprendizado, gostaria que essa idéia saísse do terminal e se transformass
     </a>
 
 Para isso, prentendo usar as seguintes tecnologias:<br>
-> <img align="center" alt="API-Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-> <img align="center" alt="API-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-> <img align="center" alt="Rafa-CSS" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+> <img align="center" alt="Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+> <img align="center" alt="HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+> <img align="center" alt="CSS" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+> <img align="center" alt="Javascript" height="40" width="50" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg">
+
 Para o desenho do site:<br>
 > <img alt="API-Csharp" height="40" width="50" src="https://api.iconify.design/ph/figma-logo-light.svg?color=%23ff4000&width=40&height=50"/>
 
@@ -31,7 +33,7 @@ Caso o link não esteja funcionando, entre em contato.<br>
 
 
 ## Estado atual do projeto (07/01/2023):
-<img align="center" alt="Youtube Downloader" height="800px" width="auto" src="https://imgcloud.s3.us-east-1.wasabisys.com/PukSuaNCII.png">
+<img align="center" alt="Youtube Downloader" height="800px" width="auto" src="https://imgcloud.s3.us-east-1.wasabisys.com/LEQ4r7xiML.png">
 
 > O botão já está funcionando. A função que retorna o titulo do vídeo já existe e funciona perfeitamente bem.<br>
 > Porém, caso você baixe, o site não irá funcionar, pois a função que existe dentro do botão (no script em javascript), precisa de uma chave de api do google.<br>
