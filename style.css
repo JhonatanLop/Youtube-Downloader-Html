@@ -157,6 +157,8 @@
 
 .radio-group label{
     margin-left: 16px;
+    /* altera o cursor do mouse */
+    cursor: pointer;
 }
 
 .radio{
@@ -166,16 +168,33 @@
     height: 24px;
     border: 2px solid #ff1212;
     border-radius: 50%;
-    background-color: #121214;
-    margin: 0;
-    padding: 0;
-    
+    cursor: pointer;
+    display: flex;
+    /* centraliza no eixo y */
+    align-items: center;
+    /* centraliza no eixo x */
+    justify-content: center;
 }
 
-/* .radio :before{
+/* bolinha que fica dentro do radio button */
+.radio::after{
     content: '';
-    width: 16px;
-    height: 16px;
+    width: 12px;
+    height: 12px;
     background-color: #ff1212;
     position: absolute;
-} */
+    border-radius: 50%;
+    /* deixa a opacidade zerada */
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+
+/* oque ela recebe depois de "checada" */
+.radio:checked::after{
+    opacity: 1;
+}
+
+/* quando o botão está em foco (mouse em cima ou tab selecionado) */
+.radio:focus{
+    box-shadow: 0 0 5px #121214;
+}
