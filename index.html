@@ -43,7 +43,7 @@
         <input type="text", id="link" , class="Input_clean", placeholder="URL :", id="videoLinkInput">
       </div>
 
-      <!-- botão -->
+      <!-- botão de pesquisa -->
       <div class="Button">
         <button class="btn" id="botao">Pesquisar</button>
       </div>
@@ -70,28 +70,45 @@
         </div>
       </form>
 
+      <!-- botão de download -->
+      <div class="Button-Download">
+        <button class="btn" id="botao_download">Download</button>
+      </div>      
+
     </div>
     <!-- fecha corpo -->
   </div>
 </body>
 
-  <script>
-    const botao = document.getElementById('botao');
-    const linkInput = document.getElementById('link');
-    const tituloInput = document.getElementById('titulo');
+<script>
+  // Obtém o elemento HTML do botão pelo seu ID
+  const botao = document.getElementById('botao');
+  // Obtém o elemento HTML do input de link pelo seu ID
+  const linkInput = document.getElementById('link');
+  // Obtém o elemento HTML do input de título pelo seu ID
+  const tituloInput = document.getElementById('titulo');
 
-    botao.addEventListener('click', () => {
-      const link = linkInput.value;
-      const videoId = link.split('v=')[1];
-      const apiKey = 'YOUR_API_KEY';
-      const url = `https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${videoId}&key=${apiKey}`;
+  // Adiciona um evento de clique ao botão
+  botao.addEventListener('click', () => {
+    // Obtém o valor do input de link
+    const link = linkInput.value;
+    // Separa o ID do vídeo usando o método split
+    const videoId = link.split('v=')[1];
+    // Define a chave API
+    const apiKey = 'YOUR_API_KEY';
+    // Constrói a URL da API do YouTube com o ID do vídeo e a chave API
+    const url = `https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${videoId}&key=${apiKey}`;
 
-      fetch(url)
-        .then(response => response.json())
-        .then(data => {
-          const titulo = data.items[0].snippet.title;
-          tituloInput.value = titulo;
-        });
-    });
-  </script> 
+    // Faz uma chamada à API usando o método fetch
+    fetch(url)
+      // Transforma a resposta em JSON
+      .then(response => response.json())
+      // Obtém o título do vídeo e atualiza o valor do input de título
+      .then(data => {
+        const titulo = data.items[0].snippet.title;
+        tituloInput.value = titulo;
+      });
+  });
+</script> 
+
 </html>
