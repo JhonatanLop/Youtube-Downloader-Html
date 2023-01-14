@@ -108,6 +108,7 @@
     border-radius: 4px;
     background-color: #ff1212;
     border: none;
+    cursor: pointer;
 
     font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;

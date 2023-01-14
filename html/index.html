@@ -6,11 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- importando css -->
-  <link rel="stylesheet" href="style.css" media="screen" />
+  <link rel="stylesheet" href="../css/style.css" media="screen" />
   <title>Youtube Downloader</title>
 </head>
 
 <body class="body">
+  <!-- importando funções java script e html -->
+  <script src="../js/functions.js"></script>
+  <script src="../python/function.py"></script>
+
   <div id="Frame-1">
     <!-- cabeçalho -->
     <div id="Header_">
@@ -72,7 +76,8 @@
 
       <!-- botão de download -->
       <div class="Button-Download">
-        <button class="btn" id="botao_download">Download</button>
+        <button class="btn" id="botao_download" onclick="downloadVideo()">Download</button>
+        <div id="result"></div> 
       </div>      
 
     </div>
@@ -109,6 +114,5 @@
         tituloInput.value = titulo;
       });
   });
-</script> 
-
+</script>
 </html>
