@@ -1,4 +1,5 @@
 # Ignore todos os arquivos de texto
 *.txt
+# Ignore arquivos de teste
 teste.css
 teste.html

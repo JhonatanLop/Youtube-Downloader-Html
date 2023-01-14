@@ -9,6 +9,7 @@
     align-items: center;
 }
 
+/* quadro que contêm todos os elementos */
 #Frame-1{
     position: relative;
     display: flex;
@@ -28,6 +29,7 @@
     display: flex;
 }
 
+/* formatação da imagem */
 #Logo{
     position: absolute;
     width: auto;
@@ -65,6 +67,7 @@
     height: auto;
 }
 
+/* div que contêm a caixa de texto */
 .Input{
     top: 28px;
     display: flex;
@@ -80,6 +83,7 @@
 
 }
 
+/* formatação da caixa de texto */
 .Input_clean{
     background-color: #202024;
     border-style: hidden;
@@ -92,6 +96,7 @@
     padding-left: 16px;
 }
 
+/* formatação da div que contêm o botão */
 .Button{
     position: absolute;
     display: flex;
@@ -101,6 +106,7 @@
     margin-right: 28px;
 }
 
+/* formatação dos botões */
 .btn{
     width: 280px;
     height: 48px;
@@ -115,6 +121,7 @@
     color: #121214;
 }
 
+/* formatação da caixa de texto que recebe o título */
 .Output{
     top: 200px;
     display: flex;
@@ -138,6 +145,7 @@
     font-size: 14px;
 }
 
+/* formatação do grupo que contêm todos os radio buttons */
 .radio-group{
     margin-top: 12px;
     position: absolute;
@@ -148,6 +156,7 @@
     font-size: 14px;
 }
 
+/* uma div-radio pra cada radio button */
 .div-radio{
     display: flex;
     width: auto;
@@ -156,12 +165,14 @@
     margin-bottom: 18px;
 }
 
+/* formatação da label do radio button */
 .radio-group label{
     margin-left: 16px;
     /* altera o cursor do mouse */
     cursor: pointer;
 }
 
+/* formatação do radio button */
 .radio{
     appearance: none;
     position: relative;
