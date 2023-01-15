@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- importando css -->
-  <link rel="stylesheet" href="../css/style.css" media="screen" />
+  <link rel="stylesheet" href="style.css" media="screen" />
   <title>Youtube Downloader</title>
 </head>
 
 <body class="body">
-  <!-- importando funções java script e html -->
-  <script src="../js/functions.js"></script>
-  <script src="../python/function.py"></script>
 
   <div id="Frame-1">
     <!-- cabeçalho -->
@@ -45,17 +42,17 @@
 
       <!-- caixa de texto para input do link -->
       <div class="Input">
-        <input type="text", id="link" , class="Input_clean", placeholder="URL :", id="videoLinkInput">
+        <input type="text" id="link" name="link" class="Input_clean" placeholder="URL :">
       </div>
 
       <!-- botão de pesquisa -->
       <div class="Button">
-        <button class="btn" id="botao">Pesquisar</button>
+        <button class="btn" id="botao_pesq" name="botao_pesq">Pesquisar</button>
       </div>
 
       <!-- titulo do vídeo -->
       <div class="Output">
-        <input type="text", id="titulo" , class="Input_clean", placeholder="O titulo aparecerá aqui", id="videoLinkInput">
+        <input type="text" id="titulo" class="Input_clean" placeholder="O titulo aparecerá aqui">
       </div>
 
       <!-- label onde será exibido o titulo do vídeo -->
@@ -86,34 +83,10 @@
   </div>
 </body>
 
-<script>
-  // Obtém o elemento HTML do botão pelo seu ID
-  const botao = document.getElementById('botao');
-  // Obtém o elemento HTML do input de link pelo seu ID
-  const linkInput = document.getElementById('link');
-  // Obtém o elemento HTML do input de título pelo seu ID
-  const tituloInput = document.getElementById('titulo');
+  <!-- importando funções java script e html -->
+  <script src="function.js"></script>
 
-  // Adiciona um evento de clique ao botão
-  botao.addEventListener('click', () => {
-    // Obtém o valor do input de link
-    const link = linkInput.value;
-    // Separa o ID do vídeo usando o método split
-    const videoId = link.split('v=')[1];
-    // Define a chave API
-    const apiKey = 'YOUR_API_KEY';
-    // Constrói a URL da API do YouTube com o ID do vídeo e a chave API
-    const url = `https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${videoId}&key=${apiKey}`;
-
-    // Faz uma chamada à API usando o método fetch
-    fetch(url)
-      // Transforma a resposta em JSON
-      .then(response => response.json())
-      // Obtém o título do vídeo e atualiza o valor do input de título
-      .then(data => {
-        const titulo = data.items[0].snippet.title;
-        tituloInput.value = titulo;
-      });
-  });
-</script>
+  <script>
+  </script>
+  
 </html>

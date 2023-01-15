@@ -1,15 +1,17 @@
 from flask import Flask, request
 from pytube import YouTube
+from flask_cors import CORS
+
 
 # cria um objeto Flask
 app = Flask(__name__)
+CORS(app)
 
 # define o endpoint '/download' com o método POST
 @app.route('/download', methods=['POST'])
 def download():
     # pega os valores do formulário enviado pelo javascript
     link = request.form['link']
-    resolution = request.form['resolution']
     type = request.form['type']
     try:
         # cria um objeto YouTube com o link
@@ -26,6 +28,9 @@ def download():
         # caso ocorra algum erro, retorna uma mensagem de erro
         return "Erro, algo aconteceu. Verifique seu link!"+str(e)
 
+print(app.url_map)
+
 # inicia o servidor
 if __name__ == '__main__':
-    app.run(debug=True)
+    # definindo a porta
+    app.run(debug=True, port=5500)
