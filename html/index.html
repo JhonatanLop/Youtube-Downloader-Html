@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- importando css -->
-  <link rel="stylesheet" href="style.css" media="screen" />
+  <link rel="stylesheet" href="../css/style.css" media="screen" />
   <title>Youtube Downloader</title>
 </head>
 
@@ -33,7 +33,7 @@
     <!-- fecha cabeçalho -->
 
     <!-- corpo -->
-    <div id="Body_">
+    <dive id="Body_">
       
       <!-- label para inserir link -->
       <div class="Label">
@@ -52,7 +52,7 @@
 
       <!-- titulo do vídeo -->
       <div class="Output">
-        <input type="text" id="titulo" class="Input_clean" placeholder="O titulo aparecerá aqui">
+        <input type="text" id="titulo" class="Input_clean" placeholder="O titulo aparecerá aqui" disabled="">
       </div>
 
       <!-- label onde será exibido o titulo do vídeo -->
@@ -74,7 +74,7 @@
 
       <!-- botão de download -->
       <div class="Button-Download">
-        <button class="btn" id="botao_download" onclick="downloadVideo()">Download</button>
+        <button class="btn" id="botao_download">Download</button>
         <div id="result"></div> 
       </div>      
 
@@ -84,9 +84,5 @@
 </body>
 
   <!-- importando funções java script e html -->
-  <script src="function.js"></script>
-
-  <script>
-  </script>
-  
+  <script src="../js/function.js"></script>  
 </html>
