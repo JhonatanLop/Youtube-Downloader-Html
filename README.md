@@ -34,10 +34,13 @@ Caso o link não esteja funcionando, entre em contato.<br>
 
 ## Estado atual do projeto:
 <img align="center" alt="Youtube Downloader" height="800px" width="auto" src="https://imgcloud.s3.us-east-1.wasabisys.com/Hw4bqrk7wP.png">
+
 > Todos os componetens já estão posicionados e as funções foram criadas.<br>
 > Alguns ajustes ainda devem ser feitos para o pleno funcionamento da aplicação
+> 
 
-> O botão já está funcionando. A função que retorna o titulo do vídeo já existe e funciona perfeitamente bem.<br>
+O botão já está funcionando. A função que retorna o titulo do vídeo já existe e funciona perfeitamente bem.<br>
+
 > Porém, caso você baixe, o site não irá funcionar, pois a função que existe dentro do botão (no script em javascript), precisa de uma chave de api do google.<br>
 > Criei uma especificamente para esse projeto, mas não posso compartilha-la publicamente.<br>
 
